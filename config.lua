@@ -8,16 +8,13 @@ require('base/search') -- Search configs
 require('base/indents') -- Indentation configs
 require('base/visual') -- GUI configs
 require('base/other')
-
 -- keys
 require('keys/alias') -- Shortcuts and incapsulation
 require('keys/main') -- Keys for built-in features
 require('keys/plugins') -- Keys for plugged features
-
 -- plugins
 require('plugins/core/use') -- Buil-in plugins that are being used
 require('plugins/core/config') -- Configs for built-in plugins
-
 require('plugins/packer/use') -- Packer pluggins that are being used
 require('plugins/packer/config') -- Configs for packer plugins
 ]]
@@ -74,6 +71,7 @@ end
 
 NM("<Tab>", ":bnext<cr>") -- Switch to the next tab on <ctrl + Tab>
 NM("<C-s>", ":w<cr>") -- Save file in input mode
+NM("<Bs>", ":bd!<cr>") -- Close current tab on <Bs>
 
 -- keys/plugins
 
@@ -94,6 +92,10 @@ lvim.builtin.treesitter.ensure_installed = { -- Elementary
   "rust",
 }
 
+lvim.builtin.cmp.sources = { -- Defining autocomplete sources
+    {name = 'nvim_lsp'}
+}
+
 -- plugins/packer/use
 
 lvim.plugins = {
@@ -103,10 +105,3 @@ lvim.plugins = {
 }
 
 -- plugins/packer/config
-
-
-
-
-
-
-
