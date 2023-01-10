@@ -3,7 +3,9 @@
 
 lvim.plugins = {
     {'preservim/nerdtree'}, -- Files tree
-    {"neovim/nvim-lspconfig"}, -- Configurations for Nvim LSP
-    {"ryanoasis/vim-devicons"} -- Incons for NerdTree    
+    {'ryanoasis/vim-devicons'}, -- Incons for NerdTree    
+    {'jiangmiao/auto-pairs'},
+    {'octol/vim-cpp-enhanced-highlight'},
+    {'ray-x/starry.nvim'}
 }
 
