@@ -6,6 +6,8 @@ lvim.plugins = {
     {'ryanoasis/vim-devicons'}, -- Incons for NerdTree    
     {'jiangmiao/auto-pairs'},
     {'octol/vim-cpp-enhanced-highlight'},
-    {'ray-x/starry.nvim'}
+    {'ray-x/starry.nvim'},
+    {'rose-pine/neovim'},
+    {'fatih/vim-go'}
 }
 
