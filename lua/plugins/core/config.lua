@@ -5,12 +5,13 @@ lvim.builtin.autopairs.active = false -- Elementary
 lvim.builtin.lualine.active = true -- Bottom status bar
 
 lvim.builtin.treesitter.ensure_installed = { -- Elementary
-  "bash",
-  "c",
-  "json",
-  "lua",
-  "python",
-  "rust",
+    "bash",
+    "c",
+    "json",
+    "lua",
+    "python",
+    "rust",
+    "go"
 }
 
 lvim.builtin.cmp.sources = {

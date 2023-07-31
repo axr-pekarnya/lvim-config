@@ -3,11 +3,11 @@
 
 lvim.plugins = {
     {'preservim/nerdtree'}, -- Files tree
-    {'ryanoasis/vim-devicons'}, -- Incons for NerdTree    
+--    {'ryanoasis/vim-devicons'}, -- Incons for NerdTree    
     {'jiangmiao/auto-pairs'},
     {'octol/vim-cpp-enhanced-highlight'},
     {'ray-x/starry.nvim'},
     {'rose-pine/neovim'},
-    {'fatih/vim-go'}
+    {'fatih/vim-go'},
 }
 
